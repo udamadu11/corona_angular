@@ -10,7 +10,7 @@
     <mat-card class="example-card">
       <form [formGroup]="casesForm" (ngSubmit)="onFormSubmit()">
         <mat-form-field class="example-full-width">
-          <mat-label>Name</mat-label>
+          <mat-label>Full Name</mat-label>
           <input matInput placeholder="Name" formControlName="name"
                   [errorStateMatcher]="matcher">
           <mat-error>
